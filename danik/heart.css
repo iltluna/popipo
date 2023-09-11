@@ -1,12 +1,18 @@
 body{
     padding:100px 0;
-    background-color:#c33
+    background-color: #6e0909
 }
 
+p{
+    font-size: 80px;
+}
+.little{
+    font-size: 14px;
+}
 #heart {
     position: relative;
-    width: 100px;
-    height: 90px;
+    width: 500px;
+    height: 450px;
     animation: heartbeat 1s infinite;
     margin:0 auto
 }
@@ -18,7 +24,7 @@ body{
     top: 0;
     width: 50px;
     height: 80px;
-    background: #fff;
+    background: #000000;
     -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
@@ -52,7 +58,7 @@ body{
 {
     0%
     {
-        transform: scale( .75 );
+        transform: scale( .9 );
     }
     20%
     {
@@ -60,7 +66,7 @@ body{
     }
     40%
     {
-        transform: scale( .75 );
+        transform: scale( .9 );
     }
     60%
     {
@@ -68,10 +74,10 @@ body{
     }
     80%
     {
-        transform: scale( .75 );
+        transform: scale( .9 );
     }
     100%
     {
-        transform: scale( .75 );
+        transform: scale( .9 );
     }
 }
